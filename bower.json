@@ -1,0 +1,17 @@
+{
+  "name": "book-store",
+  "description": "Small description for book-store goes here",
+  "main": "",
+  "authors": [
+    "khalid hassan <abuuanas30@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
