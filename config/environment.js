@@ -17,6 +17,14 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase:{
+    apiKey: "AIzaSyD7x8tlOu3CpbwR8O7xjigBgrXxdM3mRZw",
+    authDomain: "bookstore-829ab.firebaseapp.com",
+    databaseURL: "https://bookstore-829ab.firebaseio.com",
+    projectId: "bookstore-829ab",
+    storageBucket: "",
+    messagingSenderId: "939412393056"
+  },
 
     APP: {
       // Here you can pass flags/options to your application instance
