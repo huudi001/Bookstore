@@ -1,0 +1,14 @@
+<h1>My book review/store</h1>
+<h3>Welcome to my book store</h3>
+
+<hr>
+{{display-favorite-books}}
+<hr>
+
+<div>
+  {{#each model as |book|}}
+    <div>
+      {{book-tile book=book}}
+    </div>
+  {{/each}}
+</div>
