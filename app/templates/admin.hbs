@@ -1,1 +1,25 @@
-{{outlet}}
+<h1>Admin</h1>
+
+{{new-book saveNewBook="saveNewBook"}}
+
+<div>
+  <h2>list of books</h2>
+  {{#each model.books as |book|}}
+    <div>
+      <h4>{{book.title}} By {{book.author}}</h4>
+      {{update-book book=book deleteBook="deleteBook"}}
+      <button {{action "deleteBook" book}} class="btn btn-danger">Delete</button>
+    </div>
+  {{/each}}
+</div>
+
+<div>
+  <h2>Reviews</h2>
+  {{#each model.reviews as |review|}}
+    <div>
+      <h4>{{review.username}}: {{review.reviewContent}}</h4>
+      <button {{action "deleteReview" review}} class="btn btn-danger">Delete</button>
+    </div>
+  {{/each}}
+</div>
+© 2017 Hashi
