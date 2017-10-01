@@ -18,11 +18,11 @@
       </div>
       <div>
         <label>Description</label>
-        {{ value=description id="description" class="form-control"}}
+        {{input required value=description id="description" class="form-control"}}
       </div>
       <div>
         <label>Image URL</label>
-        {{ value=image id="image" class="form-control"}}
+        {{input required value=image id="image" class="form-control"}}
       </div>
       <button {{action "saveNewBook"}} class="btn btn-success">Save</button>
     </form>

@@ -1,9 +1,9 @@
 # book-store
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+an application where users may rate local restaurants, or other areas of interest (ie: festivals, climbing gear, yoga classes, recipes, books, video games, local hikes, etc).
 
 ## Prerequisites
+
 
 You will need the following things properly installed on your computer.
 
@@ -17,6 +17,14 @@ You will need the following things properly installed on your computer.
 * `git clone <repository-url>` this repository
 * `cd book-store`
 * `npm install`
+
+##author
+Khalid hashi
+
+## Licence
+MIT
+
+## known Bugs
 
 ## Running / Development
 
