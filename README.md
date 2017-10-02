@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # book-store
 
 an application where users may rate local restaurants, or other areas of interest (ie: festivals, climbing gear, yoga classes, recipes, books, video games, local hikes, etc).
@@ -56,3 +57,7 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+=======
+# Bookstore
+ an application where users may rate local restaurants, or other areas of interest (ie: festivals, climbing gear, yoga classes, recipes, books, video games, local hikes, etc).
+>>>>>>> 657d8b7c237061d959731a040c97b34c0fb738d4
